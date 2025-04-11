@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <title>Профиль | TODO</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Личный кабинет</h1>
+      <a href="tasks.html" class="back-link">← Назад</a>
+    </header>
+
+    <div class="profile-card">
+      <div class="avatar">👤</div>
+      <h2 id="userName">Гость</h2>
+      <div class="stats">
+        <p>Уровень: <span id="userLevel">1</span></p>
+        <p>Выполнено задач: <span id="tasksCompleted">0</span></p>
+      </div>
+    </div>
+
+    <div class="settings">
+      <h3>Настройки</h3>
+      <label class="switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider"></span>
+        <span>Темная тема</span>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="soundToggle" checked>
+        <span class="slider"></span>
+        <span>Звуки</span>
+      </label>
+    </div>
+  </div>
+
+  <script src="js/auth.js"></script>
+  <script src="js/sounds.js"></script>
+</body>
+</html>

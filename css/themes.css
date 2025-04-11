@@ -1,0 +1,17 @@
+
+[data-theme="dark"] {
+  --primary: #a55eea;
+  --secondary: #0984e3;
+  --dark: #f5f6fa;
+  --light: #2d3436;
+  --success: #55efc4;
+  --warning: #ffeaa7;
+  --danger: #ff7675;
+  
+  background-color: #1e272e;
+}
+
+[data-theme="dark"] .card {
+  background: #2d3436;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
